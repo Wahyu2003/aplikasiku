@@ -8,6 +8,6 @@ Lihat [GitHub Releases](https://github.com/Wahyu2003/aplikasiku/releases) untuk 
 
 | Aplikasi | Platform | Keterangan |
 | --- | --- | --- |
-| SmartMushroom | Android 7.0+ | APK pengujian; publikasi pertama menunggu build berhasil. |
+| SmartMushroom 1.0 | Android 7.0+ | [Unduh APK](https://github.com/Wahyu2003/aplikasiku/releases/download/smartmushroom-test-3-1/SmartMushroom.apk) (21,5 MB; versi pengujian) |
 
 Setiap aplikasi menggunakan tag release dengan awalan nama aplikasi. APK pengujian bukan rilis produksi.
