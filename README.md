@@ -1,13 +1,17 @@
 # Aplikasiku
 
-Repositori publik untuk distribusi aplikasi siap instal. Kode sumber setiap aplikasi tetap berada di repositori proyek masing-masing.
+Katalog publik aplikasi siap instal. Source code setiap aplikasi tetap di repository proyek masing-masing.
 
-## Unduhan
+## Katalog aplikasi
 
-Lihat [GitHub Releases](https://github.com/Wahyu2003/aplikasiku/releases) untuk APK yang telah berhasil dibangun dan dipublikasikan.
+| Aplikasi | Platform | Halaman unduhan |
+|---|---|---|
+| SmartMushroom | Android 7.0+ | [SmartMushroom](apps/smartmushroom/) |
 
-| Aplikasi | Platform | Keterangan |
-| --- | --- | --- |
-| SmartMushroom 1.0 | Android 7.0+ | [Unduh APK](https://github.com/Wahyu2003/aplikasiku/releases/download/smartmushroom-test-3-1/SmartMushroom.apk) (21,5 MB; versi pengujian) |
+## Struktur distribusi
 
-Setiap aplikasi menggunakan tag release dengan awalan nama aplikasi. APK pengujian bukan rilis produksi.
+- `main` adalah katalog bersama.
+- `apps/<nama-aplikasi>/README.md` adalah halaman unduhan, petunjuk instalasi, dan informasi versi aplikasi tersebut.
+- [GitHub Releases](https://github.com/Wahyu2003/aplikasiku/releases) menyimpan file instalasi dan aset pendukung. Setiap aplikasi memakai awalan tag yang unik, misalnya `smartmushroom-test-3-1`.
+- Aset aplikasi, seperti APK dan model, dikelompokkan pada release aplikasi terkait, bukan dicampur dengan aplikasi lain.
+- APK pengujian bukan rilis produksi.
